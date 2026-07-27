@@ -1,8 +1,26 @@
 aid: incognito-technologies
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/incognito-technologies.png
 name: Incognito Technologies
-description: Incognito Technologies is a company surfaced as a portfolio company of 500-global and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Incognito Technologies Private Limited is a Jaipur, India-based information technology services and
+  software consultancy (incorporated December 2011, CIN U72200RJ2011PTC036364, offices in Bani Park,
+  Jaipur). The firm offers custom software development, web and mobile application development, cloud
+  and data services, IT infrastructure management, digital transformation, and enterprise ERP
+  consulting. It is a professional-services provider rather than a public API producer; as of this
+  enrichment pass no developer portal, API documentation, or machine-readable API definition
+  (OpenAPI/AsyncAPI) has been located, and the corporate website (inctech.in) was unreachable when
+  probed.
 url: https://raw.githubusercontent.com/api-evangelist/incognito-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- IT Services
+- Software Development
+- Consulting
+- Cloud
+- Digital Transformation
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +48,8 @@ maintainers:
 common:
 - type: Website
   url: https://inctech.in
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
